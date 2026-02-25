@@ -1,4 +1,5 @@
-<img src="assets/app.png" alt="Daily Task Board" style="width:80%;">
+<img src="app_icon.png" alt="Daily Task Board logo" width="72" style="border-radius:16px;">
+<img src="app_icon.png" alt="Daily Task Board logo" style="display:block; width:100%; max-width:420px; height:auto; border-radius:16px; margin:0 auto;">
 
 # Daily Task Board
 
