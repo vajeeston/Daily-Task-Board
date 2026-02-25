@@ -27,7 +27,7 @@ The app saves to an Excel workbook (`.xlsx`). You can set a default location (e.
 
 ## User manual
 The manual is available inside the app via **Help**, and as a web page in `docs/` for GitHub Pages.
-## Window bin file
+## Windows bin file for download
 Download https://github.com/vajeeston/Daily-Task-Board/releases/tag/v1.0
 ## View
 <img src="\docs\screenshot_1.jpg" alt="Daily Task Board logo" width="80%" style="border-radius:16px;">
