@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Task Board — User Manual</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #111827;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --card: #f9fafb;
+    --accent: #2563eb;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 32px 18px 72px;
+  }
+  h1 { font-size: 2.0rem; margin: 0.9em 0 0.4em; }
+  h2 { font-size: 1.35rem; margin: 1.2em 0 0.4em; padding-top: 0.6em; border-top: 1px solid var(--border); }
+  h3 { font-size: 1.1rem; margin: 1.0em 0 0.35em; }
+  p { margin: 0.6em 0; }
+  ul, ol { margin: 0.6em 0 0.6em 1.2em; }
+  li { margin: 0.25em 0; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 1.2em 0; }
+  code {
+    background: #eef2ff;
+    padding: 0.12em 0.35em;
+    border-radius: 6px;
+    font-family: ui-monospace, Consolas, monospace;
+  }
+  pre {
+    background: #0b1020;
+    color: #e5e7eb;
+    padding: 14px 16px;
+    border-radius: 12px;
+    overflow-x: auto;
+  }
+  pre code { background: transparent; padding: 0; }
+  img { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Daily Task Board — User Manual</h1>
+
+<img src="app_icon.png" alt="Daily Task Board logo" width="72" style="border-radius:16px;">
+
+<p>Daily Task Board helps you <strong>plan</strong>, <strong>track</strong>, and <strong>finish</strong> your daily work in one simple place.</p>
+
+<p>This guide is written for everyday users (no technical knowledge needed).</p>
+
+<hr/>
+
+<h2>1) Quick start (2 minutes)</h2>
+
+<ol>
+<li>Open the app.</li>
+<li>In the **Calendar** (left), click a date (or press **Today**).</li>
+<li>Click **Add Task**.</li>
+<li>Fill in:</li>
+</ol>
+<ul>
+<li>**Task** name</li>
+<li>**Start** date/time</li>
+<li>**Status**</li>
+<li>Optional **Details** and **Attachments**</li>
+</ul>
+<ol>
+<li>Click **Save**.</li>
+</ol>
+
+<p>Good to know: the app also <strong>auto-saves</strong> your changes (so you don’t need a separate “Save file” step).</p>
+
+<p>Tip: Double‑click a task (in the calendar list or the table) to edit quickly.</p>
+
+<hr/>
+
+<h2>2) Screen layout</h2>
+
+<h3>Left side — Calendar panel</h3>
+<ul>
+<li>**Calendar**: click a day to select it.</li>
+<li>**Today** button: jumps to today.</li>
+<li>**Add Task** button: creates a task for the selected day.</li>
+<li>**Tasks on selected date** list:</li>
+<li>Shows tasks and notes for the selected date.</li>
+<li>Colored by status (quick scan).</li>
+<li>Double‑click an item to edit.</li>
+</ul>
+
+<h3>Right side — Notice board</h3>
+<p>The notice board is organized into several tabs:</p>
+
+<ul>
+<li>**Dashboard**: a quick overview (today/week completions, streak, etc.)</li>
+<li>**Today**: today’s tasks + notes</li>
+<li>**Pending**: unfinished/working/postponed tasks (from any date)</li>
+<li>**Finished**: finished tasks (from any date)</li>
+<li>**Projects**: store small tool ideas/projects (links, code path, screenshots)</li>
+</ul>
+
+<p>At the top you also see:</p>
+<ul>
+<li>**Status legend** (colors)</li>
+<li>**Quick Filter (Today)** to show only one status on the Today tab</li>
+<li>**Digital clock** + **Stopwatch** (start/pause/reset)</li>
+</ul>
+
+<hr/>
+
+<h2>3) Understanding task statuses (and colors)</h2>
+
+<p>Each status has a consistent color across the app:</p>
+
+<ul>
+<li>**Unfinished** (light red): not started yet</li>
+<li>**Working** (light blue): currently in progress</li>
+<li>**Postponed** (light amber): delayed / rescheduled</li>
+<li>**Finished** (light green): completed</li>
+</ul>
+
+<p>These colors appear in:</p>
+<ul>
+<li>The calendar highlights</li>
+<li>The “Tasks on selected date” list</li>
+<li>The tables in the notice board</li>
+</ul>
+
+<hr/>
+
+<h2>4) Add a task (step‑by‑step)</h2>
+
+<ol>
+<li>Select a date in the **Calendar**.</li>
+<li>Click **Add Task**.</li>
+<li>Fill in:</li>
+</ol>
+<ul>
+<li>**Task**: short, clear title (example: `Write report`)</li>
+<li>**Start**: date and time you plan to begin</li>
+<li>**Due (optional)**: a deadline (used for reminders if enabled)</li>
+<li>**Status**: choose one (see section 3)</li>
+<li>**Reminders (optional)**: at time / 10 minutes before / 1 hour before</li>
+</ul>
+<ol>
+<li>Optional:</li>
+</ol>
+<ul>
+<li>**Details**: add notes, checklists, links, or images</li>
+<li>**Attachments**: add file paths you want to remember</li>
+</ul>
+<ol>
+<li>Click **Save**.</li>
+</ol>
+
+<hr/>
+
+<h2>5) Notes vs tasks</h2>
+
+<p>Sometimes you want a “sticky note” rather than a task.</p>
+
+<p>In the task window:</p>
+<ul>
+<li>Enable **This is a note** to create a note.</li>
+<li>Notes appear in the **Today** tab and on the selected date list.</li>
+<li>Notes are displayed in a neutral style (not part of Pending/Finished tracking).</li>
+</ul>
+
+<hr/>
+
+<h2>6) Edit or delete a task</h2>
+
+<h3>Edit</h3>
+<ul>
+<li>In the table: select a row → click **Edit**</li>
+<li>Or double‑click a row</li>
+<li>Or double‑click an item in the calendar list</li>
+</ul>
+
+<h3>Delete</h3>
+<ul>
+<li>Select a task row → click **Delete**</li>
+<li>Confirm when asked</li>
+</ul>
+
+<hr/>
+
+<h2>7) Quick Filter (Today tab)</h2>
+
+<p>At the top of the notice board you can set <strong>Quick Filter (Today)</strong>:</p>
+
+<ul>
+<li>**All (Today)**</li>
+<li>**Working only (Today)**</li>
+<li>**Unfinished only (Today)**</li>
+<li>**Postponed only (Today)**</li>
+<li>**Finished only (Today)**</li>
+</ul>
+
+<p>This filter affects only the <strong>Today</strong> tab and is useful when you want to focus.</p>
+
+<p>Notes still remain visible.</p>
+
+<hr/>
+
+<h2>8) Notifications / reminders (Tasks + Projects)</h2>
+
+<p>If you set a <strong>Start</strong> time (or a <strong>Due</strong> time) you can enable reminders.</p>
+
+<h3>How reminders work</h3>
+<ul>
+<li>Reminders can be set to:</li>
+<li>**At time**</li>
+<li>**10 min before**</li>
+<li>**1 hour before**</li>
+<li>The app checks reminders every **60 seconds**.</li>
+<li>Desktop notifications show:</li>
+<li>**Title** (task/project title)</li>
+<li>**First line of Details** (if you wrote any)</li>
+</ul>
+
+<p>Tip: Notes do not send reminders.</p>
+
+<h3>Projects reminders</h3>
+<p>Projects have an optional <strong>Reminder time</strong>. You can enable the same reminder options there.</p>
+
+<hr/>
+
+<h2>9) Drag & drop scheduling</h2>
+
+<h3>Move a task to another day</h3>
+<ol>
+<li>In the **Calendar panel**, drag a task from **“Tasks on the selected date”**.</li>
+<li>Drop it on the target day in the calendar.</li>
+</ol>
+
+<p>The task keeps its time, but the <strong>date changes</strong>.</p>
+
+<h3>Reorder tasks in Today</h3>
+<p>In the <strong>Today</strong> tab you can drag rows up/down to set a manual priority order.</p>
+
+<hr/>
+
+<h2>10) Projects tab</h2>
+
+<p>Use <strong>Projects</strong> as a lightweight dashboard for anything you want to track over time — not only coding.</p>
+
+<h3>Categories</h3>
+<p>Each project has a <strong>Category</strong> (choose one):</p>
+<ul>
+<li>**Study**</li>
+<li>**Research**</li>
+<li>**Lab**</li>
+<li>**Coding**</li>
+<li>**Personal**</li>
+</ul>
+
+<p>Use the <strong>Category filter</strong> at the top of the Projects tab to quickly focus on one area.</p>
+
+<h3>What you can store per project</h3>
+<ul>
+<li>Title + status (Unfinished / Working / Postponed / Finished)</li>
+<li>**Category**</li>
+<li>**Code location** (folder or file path)</li>
+<li>**Links** (one per line)</li>
+<li>**Details** (rich text, notes, and screenshots)</li>
+<li>Attachments (optional)</li>
+</ul>
+
+<h3>Quick actions (Projects tab)</h3>
+<p>When a project is selected you can:</p>
+<ul>
+<li>**Open Code** (opens the folder / file location)</li>
+<li>**Open Link** (opens the first link, or choose from a list)</li>
+<li>**Copy Path** (copies the code location to clipboard)</li>
+</ul>
+
+<h3>Reminders</h3>
+<p>Projects can also have reminders using an optional <strong>Reminder time</strong> and the same reminder options as tasks.</p>
+
+
+<hr/>
+
+<h2>11) Dashboard (light analytics)</h2>
+
+<p>The Dashboard gives quick signals without heavy charts:</p>
+<ul>
+<li>Tasks completed **today**</li>
+<li>Tasks completed **this week**</li>
+<li>Completion **streak** (consecutive days with at least one completion)</li>
+<li>Projects active **this month**</li>
+<li>Status distribution of tasks</li>
+</ul>
+
+<hr/>
+
+<h2>12) Backup + restore</h2>
+
+<p>The app automatically keeps daily backups:</p>
+<ul>
+<li>Filename format: `daily_tasks_backup_YYYY-MM-DD.xlsx`</li>
+<li>Backups are stored in a `backups` folder next to your main XLSX file</li>
+<li>The app keeps the latest backups (default: 30 days)</li>
+</ul>
+
+<h3>Restore from a backup</h3>
+<p>Menu: <strong>File → Restore from backup…</strong></p>
+
+<p>Choose a backup file and confirm. The current workbook will be replaced by the selected backup.</p>
+
+<hr/>
+
+<h2>8) Details (text, checklists, images)</h2>
+
+<p>The <strong>Details</strong> field supports rich content:</p>
+<ul>
+<li>formatted text</li>
+<li>bullet lists</li>
+<li>checklists (simple manual style)</li>
+<li>images you insert</li>
+</ul>
+
+<h3>Image preview (thumbnails)</h3>
+<p>When a task includes images, the “Details preview” panel shows them as <strong>thumbnails</strong> (smaller size) so the preview stays clean and readable.</p>
+
+<hr/>
+
+<h2>9) Saving and opening your file</h2>
+
+<p>Your tasks are saved in an <strong>Excel (.xlsx)</strong> file.</p>
+
+<h3>Save</h3>
+<p>The app <strong>auto-saves</strong> after every change (add/edit/delete/status changes, drag &amp; drop, reorder). You normally do not need to press a separate Save button.</p>
+
+<h3>Save As</h3>
+<ul>
+<li>File → **Save As…**</li>
+<li>Choose a filename (example: `daily_tasks.xlsx`)</li>
+</ul>
+
+<h3>Open</h3>
+<ul>
+<li>Click **Open**</li>
+<li>Select your `.xlsx` file</li>
+</ul>
+
+<p>Tip: The app usually remembers and reopens the <strong>last file</strong> you used.</p>
+
+<h3>Excel colors (status + sheet tabs)</h3>
+<p>When you open your workbook in Excel, the app also adds <strong>colors</strong> for easier reading:</p>
+<ul>
+<li>Rows are tinted by status (Unfinished / Working / Postponed / Finished). Notes use a neutral gray tint.</li>
+<li>Sheet tabs are colored to match the sheet’s purpose (for example, Finished is green).</li>
+</ul>
+
+<p>These colors are visual only — you can still sort/filter normally in Excel.</p>
+
+<hr/>
+
+<h2>10) Printing and PDF export</h2>
+
+<p>You can print your tasks/projects or create a PDF.</p>
+
+<h3>Print</h3>
+<ol>
+<li>Go to **File → Print…** (or press **Ctrl+P**).</li>
+<li>Choose your printer and settings.</li>
+<li>Click **Print**.</li>
+</ol>
+
+<h3>Export all sheets to PDF</h3>
+<ol>
+<li>Go to **File → Export all sheets to PDF…**</li>
+<li>In the options box, choose what to include:</li>
+</ol>
+<ul>
+<li>✅ **Include Details text** (prints the written details for each task/project)</li>
+<li>✅ **Include image thumbnails** (prints small thumbnails from Details, if any)</li>
+</ul>
+<ol>
+<li>Choose a save location and filename.</li>
+<li>Click **Save**.</li>
+</ol>
+
+<p><strong>What is included in the PDF?</strong></p>
+<ul>
+<li>Tasks (All)</li>
+<li>Unfinished, Working, Postponed, Finished</li>
+<li>Notes</li>
+<li>Projects</li>
+</ul>
+
+<p>Each section starts on a <strong>new page</strong>.</p>
+
+<hr/>
+
+<h2>11) Settings — store your Excel file in OneDrive (optional)</h2>
+
+<p>By default, the app keeps its main workbook (<code>daily_tasks.xlsx</code>) in the <strong>app folder</strong>.</p>
+
+<p>If you prefer to keep it in <strong>OneDrive</strong> (so it syncs automatically):</p>
+
+<ol>
+<li>Open **Settings → Default file location…**</li>
+<li>Choose **Use a custom folder (e.g., OneDrive)**</li>
+<li>Click **Use OneDrive** (or **Browse…** to select a folder)</li>
+<li>Click **OK**</li>
+</ol>
+
+<p>After this, the app will use (and create if needed) the default workbook in that folder.</p>
+
+<hr/>
+
+<h2>12) Appearance (Windows theme)</h2>
+
+<p>Daily Task Board uses the <strong>Windows theme</strong> for a familiar, native look and feel.</p>
+<p>Status colors (Unfinished/Working/Postponed/Finished) are still shown throughout the app for quick scanning.</p>
+
+<h2>13) Toolbar & menus (what the buttons do)</h2>
+
+<h3>Toolbar</h3>
+<ul>
+<li>**New**: start a new empty task file</li>
+<li>**Open**: open an existing `.xlsx`</li>
+<li>**Save**: save current file</li>
+<li>**Settings**: choose the default workbook location (app folder / OneDrive)</li>
+<li>**Help**: open the user manual</li>
+<li>**Close**: exit the app</li>
+</ul>
+
+<h3>Menu bar</h3>
+<ul>
+<li>**File**: New, Open, Save, Save As, Print, Export PDF, Exit</li>
+<li>**Settings**: Default file location…</li>
+<li>**Help**: User Manual (also opens with **F1**)</li>
+</ul>
+
+<hr/>
+
+<h2>14) Tips for better productivity</h2>
+
+<ul>
+<li>Use **Working** for tasks you are actively doing right now.</li>
+<li>Use **Postponed** instead of leaving old tasks unfinished.</li>
+<li>Use the **Quick Filter** when you want to focus on one status.</li>
+<li>Put meeting links, phone numbers, or key notes in **Details**.</li>
+</ul>
+
+<hr/>
+
+<h2>15) Troubleshooting</h2>
+
+<p><strong>I can’t see status text clearly</strong></p>
+<ul>
+<li>Status colors are designed to stay readable.</li>
+</ul>
+
+<p><strong>My image is too big</strong></p>
+<ul>
+<li>The preview shows thumbnails. Open the task to see full content.</li>
+</ul>
+
+<p><strong>I can’t find my tasks</strong></p>
+<ul>
+<li>Check you opened the correct `.xlsx` file (File → Open).</li>
+<li>Check the date in the calendar.</li>
+<li>Check Pending/Finished tabs.</li>
+</ul>
+
+<hr/>
+
+<p>© 2026 Daily Task Board. All rights reserved.</p>
+
+
+<hr/>
+
+<h2>Projects tab</h2>
+
+<p>The <strong>Projects</strong> tab is a place to track your small development projects (for example: Python tools, scripts, mini apps).  </p>
+<p>It works like a “project dashboard” with a table + a Details preview.</p>
+
+<h3>What you can store for each project</h3>
+
+<ul>
+<li>**Project name**: the title shown in the Projects list</li>
+<li>**Status**:</li>
+<li>**Unfinished** = planned / not started yet</li>
+<li>**Working** = currently developing</li>
+<li>**Postponed** = on hold / paused</li>
+<li>**Finished** = completed</li>
+<li>**Code location**: the folder or main script path on your PC</li>
+<li>**Links**: one per line (GitHub, documentation, Trello, Notion, etc.)</li>
+<li>**Details**: rich notes + screenshots (images will show as thumbnails in the preview)</li>
+<li>**Attachments**: optional file paths to related PDFs/docs/data files</li>
+</ul>
+
+<h3>Add a new project</h3>
+
+<ol>
+<li>Open the **Projects** tab.</li>
+<li>Click **Add**.</li>
+<li>Fill in:</li>
+</ol>
+<ul>
+<li>Project name</li>
+<li>Status</li>
+<li>Code location (optional)</li>
+<li>Links (optional)</li>
+<li>Details (optional)</li>
+</ul>
+<ol>
+<li>Click **Save**.</li>
+</ol>
+
+<h3>Add screenshots (recommended)</h3>
+
+<ul>
+<li>Use **Insert Image into Details** to add a screenshot.</li>
+<li>In the Projects list, when you select the project:</li>
+<li>Text appears on the left</li>
+<li>Screenshot thumbnails appear on the right</li>
+</ul>
+
+<h3>Update project status quickly</h3>
+
+<p>In the Projects table, use the <strong>Status dropdown</strong> on each row to update progress instantly.</p>
+
+<h3>Tips for good organization</h3>
+
+<ul>
+<li>Keep a stable folder such as `Documents\My Tools\` to store project code so the path doesn’t change.</li>
+<li>Put important URLs (GitHub repo, docs, issues) into the **Links** field (one per line).</li>
+<li>Keep a short “how to run / what it does” note in **Details** so you can remember later.</li>
+</ul>
+
+
+
+<hr/>
+
+<h2>GitHub Pages documentation</h2>
+<p>If you upload the project to GitHub, the manual can be published as a simple website using the <code>docs/</code> folder (GitHub Pages). The included <code>docs/index.html</code> is ready for that.</p>
+  </div>
+</body>
+</html>
