@@ -29,4 +29,4 @@ The app saves to an Excel workbook (`.xlsx`). You can set a default location (e.
 The manual is available inside the app via **Help**, and as a web page in `docs/` for GitHub Pages.
 
 ## View
-<img src="docs/screenshot_1.jpg" alt="Daily Task Board logo" width="50%" style="border-radius:16px;">
+<img src="\docs\screenshot_1.jpg" alt="Daily Task Board logo" width="50%" style="border-radius:16px;">
