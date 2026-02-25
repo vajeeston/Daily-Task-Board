@@ -1,5 +1,4 @@
-<img src="app_icon.png" alt="Daily Task Board logo" width="72" style="border-radius:16px;">
-<img src="app_icon.png" alt="Daily Task Board logo" style="display:block; width:100%; max-width:420px; height:auto; border-radius:16px; margin:0 auto;">
+<img src="app_icon.png" alt="Daily Task Board logo" style="display:block; width:50%; max-width:420px; height:auto; border-radius:16px; margin:0 auto;">
 
 # Daily Task Board
 
@@ -28,3 +27,6 @@ The app saves to an Excel workbook (`.xlsx`). You can set a default location (e.
 
 ## User manual
 The manual is available inside the app via **Help**, and as a web page in `docs/` for GitHub Pages.
+
+## View
+<img src="docs/screenshot_1.jpg" alt="Daily Task Board logo" width="50%" style="border-radius:16px;">
