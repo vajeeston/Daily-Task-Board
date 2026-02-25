@@ -2,6 +2,7 @@
 
 <img src="app_icon.png" alt="Daily Task Board logo" width="72" style="border-radius:16px;">
 <img src="app_icon.png" alt="Daily Task Board logo" style="display:block; width:100%; max-width:420px; height:auto; border-radius:16px; margin:0 auto;">
+
 Daily Task Board helps you **plan**, **track**, and **finish** your daily work in one simple place.
 
 This guide is written for everyday users (no technical knowledge needed).
